@@ -1,0 +1,9 @@
+nside = 16
+mask = "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+model = "PRISM-1_1.ply"
+winSize = 200
+showBuffers = true
+bHealpix = false
+bAnimate = false
+bDOI = false
+bHist = false
