@@ -1,0 +1,33 @@
+﻿Build started 6/8/2016 1:59:08 PM.
+     1>Project "C:\Users\pjbarton\Desktop\PRISM\GL\HelloGL\HelloGL\HelloGL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\pjbarton\Desktop\PRISM\GL\HelloGL\packages\LodePNG.1.1.0\build\native\..\..\lib\native\include\ /IC:\Users\pjbarton\Desktop\PRISM\GL\HelloGL\packages\pngpp.0.2.7.1\build\native\../..//build/native/include/ /IC:\Users\pjbarton\Desktop\PRISM\GL\HelloGL\packages\pngpp.0.2.7.1\build\native\../..///build/native/include/ /IC:\Users\pjbarton\Desktop\PRISM\GL\HelloGL\packages\libpng.1.5.10.9\build\native\..\..\build\native\include\ /I"C:\Users\pjbarton\Desktop\PRISM\GL\HelloGL\packages\zlib.v140.windesktop.msvcstl.dyn.rt-dyn.1.2.8.8\build\native\include" /IC:\Users\pjbarton\Desktop\PRISM\GL\HelloGL\packages\glm.0.9.7.1\build\native\../..//build/native/include/ /IC:\Users\pjbarton\Desktop\PRISM\GL\HelloGL\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/ /ZI /nologo /W3 /WX- /sdl /Od /D HAS_LODEPNG /D HAS_PNGPP /D HAS_LIBPNG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt glut_ply.cpp LoadShaders.cpp main.cpp
+         main.cpp
+     1>c:\users\pjbarton\desktop\prism\gl\hellogl\hellogl\main.cpp(139): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\pjbarton\desktop\prism\gl\hellogl\hellogl\main.cpp(140): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\pjbarton\desktop\prism\gl\hellogl\hellogl\main.cpp(141): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\pjbarton\desktop\prism\gl\hellogl\hellogl\main.cpp(146): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\pjbarton\desktop\prism\gl\hellogl\hellogl\main.cpp(147): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\pjbarton\desktop\prism\gl\hellogl\hellogl\main.cpp(148): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\pjbarton\desktop\prism\gl\hellogl\hellogl\main.cpp(150): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\pjbarton\desktop\prism\gl\hellogl\hellogl\main.cpp(229): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\pjbarton\desktop\prism\gl\hellogl\hellogl\main.cpp(230): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\pjbarton\desktop\prism\gl\hellogl\hellogl\main.cpp(231): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\pjbarton\desktop\prism\gl\hellogl\hellogl\main.cpp(419): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>c:\users\pjbarton\desktop\prism\gl\hellogl\hellogl\main.cpp(423): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\pjbarton\desktop\prism\gl\hellogl\hellogl\main.cpp(424): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>c:\users\pjbarton\desktop\prism\gl\hellogl\hellogl\main.cpp(426): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\pjbarton\desktop\prism\gl\hellogl\hellogl\main.cpp(428): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+         LoadShaders.cpp
+     1>c:\users\pjbarton\desktop\prism\gl\hellogl\hellogl\loadshaders.cpp(26): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+         glut_ply.cpp
+     1>c:\users\pjbarton\desktop\prism\gl\hellogl\hellogl\glut_ply.cpp(122): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>c:\users\pjbarton\desktop\prism\gl\hellogl\hellogl\glut_ply.cpp(60): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+         Generating Code...
+     1>Done Building Project "C:\Users\pjbarton\Desktop\PRISM\GL\HelloGL\HelloGL\HelloGL.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.91

@@ -1,0 +1,44 @@
+﻿  glut_ply.cpp
+glut_ply.cpp(98): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+glut_ply.cpp(108): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+glut_ply.cpp(122): warning C4305: 'initializing': truncation from 'double' to 'float'
+glut_ply.cpp(60): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+glut_ply.cpp(99): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+glut_ply.cpp(109): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+glut_ply.cpp(127): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+glut_ply.cpp(147): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+  LoadShaders.cpp
+LoadShaders.cpp(26): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  main.cpp
+main.cpp(210): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(211): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+main.cpp(212): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(214): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(217): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(154): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+main.cpp(300): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+main.cpp(365): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(366): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+main.cpp(368): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(369): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(370): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(371): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(381): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+main.cpp(383): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(384): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(385): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(386): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(300): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+main.cpp(517): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+main.cpp(605): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
