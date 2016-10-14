@@ -1,9 +1,9 @@
-nside = 16
-mask = "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
-model = "PRISM-1_1.ply"
-winSize = 200
-showBuffers = true
+model = "PRISM_ring.ply"
+mask = "ffffffffffffffffffffffffffffffffffffffffffffffff"
+winSize = 400
+srcDist = 100.0
+bShowBuffers = true
+bInnerOnly = false
 bHealpix = false
-bAnimate = false
-bDOI = false
-bHist = false
+nside = 16
+nDepthBins = 2
