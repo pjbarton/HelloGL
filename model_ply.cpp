@@ -5,7 +5,7 @@
 #include <string.h>
 #include <cmath>
 #include <string>
-#include "glut_ply.h"
+#include "model_ply.h"
  
 Model_PLY::Model_PLY()
 { 
